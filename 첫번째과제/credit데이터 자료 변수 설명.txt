@@ -1,0 +1,49 @@
+0. 목적
+
+신용이 좋은 사람과 나쁜 사람 분류를 통해 대출여부 결정
+
+
+
+1. 변수
+
+checking_balance(qual) : 대출하려는 사람의 기존 잔액
+
+month_loan_duration(numeric) : 대출기간
+
+credit_history(qual) : 채무이행전과
+
+purpose(qual) : 대출목적
+
+amount(numeric) : 대출금액
+
+savings_balance(qual) : 대출하려는 사람의 저축현황
+
+employment_length(qual) : 대출하려는 사람의 직장생활 년도
+
+installment_rate(numeric) : 가처분소득에 따른 할부
+
+personal_status(qual) ; 성별과 가구형태
+
+other_debtors(qual) : 보증인의 유무
+
+residence_history(numeric) : 이사 횟수(처음도 1회로 침)
+
+property(qual) : 재산(소유물)
+
+age(numeric) : 나이
+
+installment_plan(qual) : 기타 할부 집단
+
+housing(qual) : 전세/소유물/무료
+
+existing_credits(numeric) : 신용카드 갯수
+
+dependents(numeric) : 부양가족 수 
+
+telephone(qual) : 전화기 보유여부
+
+foreign_worker(qual) : 외국인 노동자 여부
+
+
+
+default(qual) : 대출여부-목적변수
